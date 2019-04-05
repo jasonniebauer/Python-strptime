@@ -1,12 +1,12 @@
-A reference site for Python's strptime formatting options.
+**A reference site for Python's strptime formatting options.**
 
-## Date
+### Date
 
 | Code | Description | Example |
 |:-----|:------------|:--------|
 | test | test        | test    |
 
-## Time
+### Time
 
 | Code | Description | Example |
 |:-----|:------------|:--------|
