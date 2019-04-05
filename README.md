@@ -1,5 +1,7 @@
 **A reference site for Python's strptime formatting options.**
 
+[GitHub](https://github.com/jasonniebauer/Python-strptime)
+
 ### Date
 
 | Code | Description | Example |
