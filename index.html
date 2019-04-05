@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Python stpftime reference cheatsheet">
+    <meta name="keywords" content="Python, stpftime, format, date, time">
+    <meta name="author" content="Jason Niebauer">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Python stpftime</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="py-4 bg-dark">
+    <header class="m-auto px-2 py-4" style="max-width:900px;">
+      <h1 class="mb-4 text-white">Python <code>stpftime</code></h1>
+      <iframe class="mr-1" src="https://ghbtns.com/github-btn.html?user=jasonniebauer&repo=Python-strftime&type=star" frameborder="0" scrolling="0" width="51px" height="20px"></iframe>
+      <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Check%20out%20pythonstrftime.com" data-size="small">Tweet</a>
+    </header>
+    <section class="py-4">
+      <div class="m-auto p-2" style="max-width:900px;">
+        <h3 class="text-white">Date</h3>
+      </div>
+      <table class="table table-dark table-striped m-auto" style="max-width:900px;">
+        <thead class="">
+          <tr>
+            <th scope="col">Code</th>
+            <th scope="col">Description</th>
+            <th scope="col">Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">%a</th>
+            <td>Weekday as locale's abbreviated name.</td>
+            <td>Mon</td>
+          </tr>
+          <tr>
+            <th scope="row">%A</th>
+            <td>Weekday as locale’s full name.</td>
+            <td>Monday</td>
+          </tr>
+          <tr>
+            <th scope="row">%w</th>
+            <td>Weekday as a decimal number, where 0 is Sunday and 6 is Saturday.</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <th scope="row">%d</th>
+            <td>Day of the month as a zero-padded decimal number.</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <th scope="row">%-d</th>
+            <td>Day of the month as a decimal number. (Platform specific)</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <th scope="row">%b</th>
+            <td>Month as locale’s abbreviated name.</td>
+            <td>Sep</td>
+          </tr>
+          <tr>
+            <th scope="row">%B</th>
+            <td>Month as locale’s full name.</td>
+            <td>September</td>
+          </tr>
+          <tr>
+            <th scope="row">%m</th>
+            <td>Month as a zero-padded decimal number.</td>
+            <td>09</td>
+          </tr>
+          <tr>
+            <th scope="row">%-m</th>
+            <td>Month as a decimal number. (Platform specific)</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <th scope="row">%y</th>
+            <td>Year without century as a zero-padded decimal number.</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <th scope="row">%Y</th>
+            <td>Year with century as a decimal number.</td>
+            <td>2013</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="m-auto px-2 pt-4 pb-2" style="max-width:900px;">
+      <h3 class="text-white">Time</h3>
+    </div>
+      <table class="table table-dark table-striped m-auto" style="max-width:900px;">
+        <thead>
+          <tr>
+            <th scope="col">Code</th>
+            <th scope="col">Description</th>
+            <th scope="col">Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">%H</th>
+            <td>Hour (24-hour clock) as a zero-padded decimal number.</td>
+            <td>07</td>
+          </tr>
+          <tr>
+            <th scope="row">%-H</th>
+            <td>Hour (24-hour clock) as a decimal number. (Platform specific)</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <th scope="row">%I</th>
+            <td>Hour (12-hour clock) as a zero-padded decimal number.</td>
+            <td>07</td>
+          </tr>
+          <tr>
+            <th scope="row">%-I</th>
+            <td>Hour (12-hour clock) as a decimal number. (Platform specific)</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <th scope="row">%p</th>
+            <td>Locale’s equivalent of either AM or PM.</td>
+            <td>AM</td>
+          </tr>
+          <tr>
+            <th scope="row">%M</th>
+            <td>Minute as a zero-padded decimal number.</td>
+            <td>06</td>
+          </tr>
+          <tr>
+            <th scope="row">%-M</th>
+            <td>Minute as a decimal number. (Platform specific)</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <th scope="row">%S</th>
+            <td>Second as a zero-padded decimal number.</td>
+            <td>05</td>
+          </tr>
+          <tr>
+            <th scope="row">%-S</th>
+            <td>Second as a decimal number. (Platform specific)</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <th scope="row">%f</th>
+            <td>Microsecond as a decimal number, zero-padded on the left.</td>
+            <td>000000</td>
+          </tr>
+          <tr>
+            <th scope="row">%z</th>
+            <td>UTC offset in the form +HHMM or -HHMM (empty string if the the object is naive).</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">%Z</th>
+            <td>Time zone name (empty string if the object is naive).</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">%j</th>
+            <td>Day of the year as a zero-padded decimal number.</td>
+            <td>273</td>
+          </tr>
+          <tr>
+            <th scope="row">%-j</th>
+            <td>Day of the year as a decimal number. (Platform specific)</td>
+            <td>273</td>
+          </tr>
+          <tr>
+            <th scope="row">%U</th>
+            <td>Week number of the year (Sunday as the first day of the week) as a zero padded decimal number. All days in a new year preceding the first Sunday are considered to be in week 0.</td>
+            <td>39</td>
+          </tr>
+          <tr>
+            <th scope="row">%W</th>
+            <td>Week number of the year (Monday as the first day of the week) as a decimal number. All days in a new year preceding the first Monday are considered to be in week 0.</td>
+            <td>39</td>
+          </tr>
+          <tr>
+            <th scope="row">%c</th>
+            <td>Locale’s appropriate date and time representation.</td>
+            <td>Mon Sep 30 07:06:05 2013</td>
+          </tr>
+          <tr>
+            <th scope="row">%x</th>
+            <td>Locale’s appropriate date representation.</td>
+            <td>09/30/13</td>
+          </tr>
+          <tr>
+            <th scope="row">%X</th>
+            <td>Locale’s appropriate time representation.</td>
+            <td>07:06:05</td>
+          </tr>
+          <tr>
+            <th scope="row">%%</th>
+            <td>A literal '%' character.</td>
+            <td>%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- Twitter: Tweet button -->
+    <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+    
+      return t;
+    }(document, "script", "twitter-wjs"));</script>
+  </body>
+</html>
